@@ -1,0 +1,38 @@
+function validateInput(element) {
+    if (element.value.trim() === '') {
+        element.style.border = '2px solid red';
+    } else {
+        element.style.border = '2px solid green';
+    }
+}
+
+function resetBorder(element) {
+    element.style.border = '1px solid #ccc';
+}
+
+document.getElementById('signupForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const name = document.getElementById('name').value;
+    const username = document.getElementById('username').value;
+    const gender = document.getElementById('gender').value;
+    const password = document.getElementById('password').value;
+    const email = document.getElementById('email').value;
+    const address = document.getElementById('address').value;
+    const interests = document.getElementById('interests').value;
+
+    const outputDiv = document.getElementById('output');
+    outputDiv.innerHTML = `
+        <h3>User Information</h3>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Username:</strong> ${username}</p>
+        <p><strong>Gender:</strong> ${gender}</p>
+        <p><strong>Password:</strong> ${password}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Address:</strong> ${address}</p>
+        <p><strong>Interests:</strong> ${interests}</p>
+    `;
+});
+
+function clearOutput() {
+    document.getElementById('output').innerHTML = '';
+}
