@@ -5,10 +5,10 @@
 
 body {
     font-family: 'Minecraft', sans-serif;
-    background-color: #87ceeb; /* Sky blue background */
+    background-color: #87ceeb; 
     margin: 0;
     padding: 20px;
-    background-image: url('minecraft-background.png'); /* Minecraft background */
+    background-image: url('minecraft-background.png'); 
     background-size: cover;
     color: #333;
 }
@@ -16,14 +16,14 @@ body {
 .container {
     max-width: 600px;
     margin: 0 auto;
-    background-color: #d4d4d4; /* Stone color */
+    background-color: #d4d4d4; 
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
 }
 
 fieldset {
-    border: 2px solid #8B4513; /* Dark brown border */
+    border: 2px solid #8B4513;
     padding: 20px;
     border-radius: 10px;
 }
@@ -66,12 +66,12 @@ input[type="submit"], input[type="reset"] {
 }
 
 input[type="submit"] {
-    background-color: #3CB371; /* Medium Sea Green */
+    background-color: #3CB371;
     color: white;
 }
 
 input[type="reset"] {
-    background-color: #B22222; /* Firebrick */
+    background-color: #B22222; 
     color: white;
 }
 
