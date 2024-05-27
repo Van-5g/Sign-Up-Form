@@ -1,14 +1,8 @@
-@font-face {
-    font-family: 'Minecraft';
-    src: url('Minecraft.ttf') format('truetype');
-}
-
 body {
-    font-family: 'Minecraft', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #87ceeb; 
     margin: 0;
     padding: 20px;
-    background-image: url('minecraft-background.png'); 
     background-size: cover;
     color: #333;
 }
@@ -49,7 +43,7 @@ input[type="text"], input[type="email"], input[type="password"], textarea, selec
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
-    font-family: 'Minecraft', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 textarea {
@@ -62,7 +56,7 @@ input[type="submit"], input[type="reset"] {
     border-radius: 5px;
     cursor: pointer;
     margin-right: 10px;
-    font-family: 'Minecraft', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 input[type="submit"] {
@@ -81,6 +75,6 @@ input[type="reset"] {
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: #f9f9f9;
-    font-family: 'Minecraft', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #333;
 }
